@@ -10,7 +10,7 @@
             </div>
           </div>
           <!-- Main content -->
-          <main class="col-span-12 md:col-span-8 xl:col-span-6 bg-red-500">
+          <main class="col-span-12 md:col-span-8 xl:col-span-6">
             <RouterView/>
           </main>
           <!-- Right sidebar -->
@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-const darkMode = ref(true)
+const darkMode = ref(false)
 </script>
 
 <style scoped></style>

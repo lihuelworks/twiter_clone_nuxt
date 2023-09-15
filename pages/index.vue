@@ -1,13 +1,13 @@
 <template>
     <div>
-        Home
+        <MainSection title="Home" :loading="false">
+            Content
+        </MainSection>
     </div>
 </template>
 
 <script setup>
-
+const loading = ref(false)
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style scoped></style>

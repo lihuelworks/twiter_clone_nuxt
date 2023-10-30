@@ -1,7 +1,7 @@
 <template>
     <div>
         <MainSection title="Home" :loading="false">
-            Content
+            Content 
         </MainSection>
     </div>
 </template>
